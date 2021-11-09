@@ -7,7 +7,7 @@ monikerRange: '>= aspnetcore-6.0'
 ms.custom: mvc
 ms.date: 07/16/2021
 no-loc: [Home, Privacy, Kestrel, appsettings.json, "ASP.NET Core Identity", cookie, Cookie, Blazor, "Blazor Server", "Blazor WebAssembly", "Identity", "Let's Encrypt", Razor, SignalR]
-uid: mvc/views/tag-helpers/builtin-th/preserve-component-state-tag-helper
+uid: mvc/views/tag-helpers/builtin-th/persist-component-state-tag-helper
 zone_pivot_groups: blazor-hosting-models
 ---
 # Preserve Component State Tag Helper in ASP.NET Core
@@ -21,7 +21,7 @@ Follow the guidance in the *Configuration* section for either:
 
 ## Preserve Component State Tag Helper
 
-To preserve state for prerendered components, use the Preserve Component State Tag Helper (`<persist-component-state />`). Add the `<preserve-component-state />` tag inside the closing `</body>` tag of the `_Host` page in an app that prerenders components:
+To preserve state for prerendered components, use the Preserve Component State Tag Helper (`<persist-component-state />`). Add the `<persist-component-state />` tag inside the closing `</body>` tag of the `_Host` page in an app that prerenders components:
 
 ::: zone pivot="webassembly"
 
